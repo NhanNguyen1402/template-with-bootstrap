@@ -1,0 +1,22 @@
+.member{
+    background: $gray-color;
+    padding-top: 3rem;
+    color: $white-color;
+    text-align: center;
+    .member-item{
+        h2{
+            color: $pink-color;
+        }
+        h6{
+            color: $pink-color;
+        }
+        p{
+            text-align: left;
+        }
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}

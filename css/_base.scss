@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+// =========== VARIABLES ==========
+$pink-color: #f6a6b9;
+$black-color: #111;
+$gray-color: #1b1b1b;
+$gray-color-light: #201e1d;
+$white-color: #fff;
+
+// =========== BASE =================
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h6 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+

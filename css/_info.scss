@@ -1,0 +1,52 @@
+.main-content{
+    background: $gray-color;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $pink-color;
+    h2, h6{
+        color: $pink-color;
+        margin-bottom: 2rem;
+    }
+    h2{
+        padding-top: 3rem;
+    }
+    p{
+        color: $white-color;
+    }
+    .about{
+        img{
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+    }
+// ---------albums ===============
+    .albums{
+        img {
+            width: 120px;
+            height: 200px;
+            margin-right: 1rem;
+        }
+        li {
+            display: flex;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+    }
+    span{
+        color: $pink-color;
+        cursor: pointer;
+        &:hover{
+            color: $white-color;
+            text-decoration: underline;
+        }
+    }
+    
+}
+// =========== events =====================
+.event-item {
+    margin-bottom: 3rem;
+    border-bottom: 2px solid $pink-color;
+    img{
+        width: 100%;
+    }
+}
